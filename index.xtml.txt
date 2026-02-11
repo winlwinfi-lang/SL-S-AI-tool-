@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Learning AI - AI နှင့် နည်းပညာ မျှဝေရာ</title>
+    <style>
+        :root {
+            --primary-color: #2d3436;
+            --accent-color: #0984e3;
+            --bg-color: #f4f7f6;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Pyidaungsu', 'Segoe UI', Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 2rem;
+        }
+
+        h1 { margin: 0; color: var(--primary-color); font-size: 2.8rem; letter-spacing: -1px; }
+        p.tagline { color: #666; font-size: 1.2rem; margin-top: 10px; }
+
+        .section {
+            margin-bottom: 2rem;
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+        }
+
+        h2 { border-left: 5px solid var(--accent-color); padding-left: 15px; margin-top: 0; }
+
+        .btn {
+            display: inline-block;
+            background: var(--accent-color);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(9, 132, 227, 0.3);
+        }
+
+        .btn:hover { 
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(9, 132, 227, 0.4);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .social-link {
+            text-align: center;
+            padding: 1.2rem;
+            border: 2px solid #eee;
+            border-radius: 10px;
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .social-link:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+            background: #f0f7ff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem;
+            font-size: 0.9rem;
+            color: #999;
+        }
+
+        @media (max-width: 600px) {
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Self Learning AI</h1>
+    <p class="tagline">ကိုယ်တိုင်သင်ယူရင်း၊ အများကို ပြန်လည်မျှဝေခြင်း</p>
+</header>
+
+<div class="container">
+    <section class="section">
+        <h2>အဓိက ရည်ရွယ်ချက်</h2>
+        <p>AI နည်းပညာသည် အမြဲပြောင်းလဲနေသည်။ ထို့ကြောင့် ကျွန်တော်ကိုယ်တိုင် လေ့လာနေသော ခရီးစဉ် (Learning Path) ကို အများသိအောင် ချပြပြီး၊ ရရှိလာသော အသိပညာများကို <strong>၅ မိနစ်စာ နည်းပညာဗဟုသုတ</strong> များအဖြစ် ပြန်လည်မျှဝေပေးသွားမည် ဖြစ်ပါသည်။</p>
+    </section>
+
+    <section class="section" style="text-align: center;">
+        <h2>Interactive Roadmap</h2>
+        <p>ကျွန်တော် လေ့လာမည့် AI Tools များ၊ သင်ခန်းစာများနှင့် တိုးတက်မှု အခြေအနေများကို Notion တွင် စနစ်တကျ ကြည့်ရှုနိုင်ပါသည်။</p>
+        <a href="https://www.notion.so" target="_blank" class="btn">Notion Roadmap သို့သွားရန်</a>
+    </section>
+
+    <section class="section">
+        <h2>Connect with Me</h2>
+        <p>နေ့စဉ် နည်းပညာဗဟုသုတများကို အောက်ပါ Platform များတွင် ဖတ်ရှုနိုင်ပါသည်-</p>
+        <div class="grid">
+            <a href="https://www.facebook.com" target="_blank" class="social-link">Facebook Page</a>
+            <a href="https://t.me" target="_blank" class="social-link">Telegram Channel</a>
+        </div>
+    </section>
+</div>
+
+<footer>
+    &copy; 2026 Self Learning AI. Built for the future.
+</footer>
+
+</body>
+</html>
